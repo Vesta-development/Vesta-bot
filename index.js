@@ -9,5 +9,5 @@ const client = new Client({
 })
 
 client.login(process.env.token).then(async (b) => {
-    
+    console.log("online")
 })
